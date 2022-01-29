@@ -21,7 +21,7 @@ export default function SetupForm(props) {
                 visibility={true}
             />
             <Input
-                prefix="www.eden.com"
+                prefix="www.eden.com/"
                 title="Workspace URL"
                 value={workspaceUrl}
                 placeholder="workspaceurl"
