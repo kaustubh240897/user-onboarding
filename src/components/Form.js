@@ -181,7 +181,7 @@ export default function Form({ text, pageNext }) {
             ) : null}
             <div className="form-heading">
                 <h1>{formHeadings[page]}</h1>
-                <p>{formsubHeadings[page]}</p>
+                <p className="center">{formsubHeadings[page]}</p>
             </div>
             <div className="form-body">{PageDisplay()}</div>
             <div className="form-footer">
